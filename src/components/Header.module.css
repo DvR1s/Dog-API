@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: var(--bg-base);
+  color: var(--text-main);
+}
+
+.container p {
+  max-width: 80%;
+  margin: 1rem 0 0 0;
+  color: var(--text-light);
+  font-size: 1rem;
+  line-height: 1.5;
+}

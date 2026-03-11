@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  height: 50px;
+}
+
+.container button {
+  height: 50px;
+  padding: 0 1.5rem;
+  background-color: var(--accent);
+  border: 1px solid brown;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: var(--bg-base);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.container button:hover {
+  background-color: rgb(255, 170, 90);
+}
+
+.container button:active {
+  background-color: rgb(255, 150, 68);
+}
